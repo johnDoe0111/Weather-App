@@ -1,0 +1,71 @@
+.card-block {
+  width: 760px;
+  margin: 0 auto;
+  padding-top: 112px;
+}
+
+.card {
+  padding: 39px 27px 24px 71px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card:not(:first-child) {
+  margin-top: 47px;
+}
+
+.day {
+  background: url("../img/gif1.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.night {
+  background: url("../img/gif2.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.city-name {
+  font-family: "Inter";
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.city-location {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+  padding-top: 10px;
+}
+
+.date {
+  font-family: "Inter";
+  color: white;
+  font-weight: 400;
+  font-size: 24px;
+  padding-top: 107px;
+}
+
+.temp_c {
+  font-family: "Inter";
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.temp_f {
+  font-family: "Inter";
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+  padding-top: 91px;
+}

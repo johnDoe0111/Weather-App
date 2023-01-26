@@ -1,40 +1,42 @@
 .input-title {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    text-align: center;
-    color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  color: white;
 }
 
 .input {
-    padding: 24px 0;
-    width: 800px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    background-color: transparent;
-    color: white;
-    text-align: center;
-    border: 2px solid #FFFFFF;
-    border-radius: 20px;
-    margin-left: 80px;
+  padding: 24px 0;
+  width: 800px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  margin-left: 80px;
 }
 
 .input:focus {
-    outline: none
+  outline: none;
 }
 
-input::-webkit-input-placeholder { color: white; }
+input::-webkit-input-placeholder {
+  color: white;
+}
 
 .input-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .input-icon {
-    margin-left: 20px;
-    cursor: pointer;
+  margin-left: 20px;
+  cursor: pointer;
 }
