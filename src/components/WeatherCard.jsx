@@ -5,7 +5,7 @@ const WeatherCard = ({ cities }) => {
     <div className="card-block">
       {cities.map((item) => (
         <div className={`card ${item.current.is_day ? `day` : `night`}`}>
-          <div className="card-left-items">
+          <div key={item.id} className="card-left-items">
             <p className="city-name">{item.location.name}</p>
             <p className="city-location">{item.location.region}</p>
             <p className="date">{item.location.localtime}</p>
